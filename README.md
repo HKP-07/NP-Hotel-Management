@@ -24,5 +24,5 @@ Use OSPF as the routing protocol to advertise routes.
 All devices in the network are expected to obtain IP address dynamically with their respective  router configured as the DHCP server.
 All the devices in the network are expected to communicate with each other.
 Configure SSH in all the routers for remote login.
-In IT department, add PC called Test-PC to port fa0/1 and use it to test remote login.
+In IT department, add PC called Test-PC to port fa0/2 and use it to test remote login.
 Configure port security to IT-dept switch to allow only Test-PC to access port fa0/2 (use sticky method to obtain mac-address with violation mode of shutdown.)
